@@ -1,0 +1,19 @@
+# Copyright 2024 Issio Solutions, Inc
+
+#
+# Applies at every level
+#
+
+.DS_Store
+.idea
+.vscode
+node_modules
+package-lock.json
+pnpm-lock.yaml
+
+#
+# Root of Git Repo
+#
+
+/.nova
+/bun.lockb

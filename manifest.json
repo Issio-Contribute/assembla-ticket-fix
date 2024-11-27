@@ -1,0 +1,14 @@
+{
+  "manifest_version": 3,
+  "name": "Assembla Ticket Fix",
+  "version": "0.1",
+  "description": "Fix up Assembla Ticket Links",
+  "content_scripts": [
+    {
+      "js": ["scripts/content.js"],
+      "matches": [
+        "https://app.assembla.com/*"
+      ]
+    }
+  ]
+}
